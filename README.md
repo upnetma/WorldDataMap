@@ -1,3 +1,4 @@
+![An image for planet of earth with africa in the center](Documentation/assets/img/earth_map.png)
 # World Data Map
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ![](https://geps.dev/progress/0)
@@ -18,13 +19,14 @@ ___
 - [ ] Add the Cities
 - [ ] WebApplication
 - [ ] WordPress Plugin
+- [X] Adding all Languages
 ###### Documentation Checklist
-| Task                   | Progress      |
-|------------------------|---------------|
-| Project's Presentation | ![](https://geps.dev/progress/0) |
-| Project's UML          | ![](https://geps.dev/progress/0) |
-| Features List          | ![](https://geps.dev/progress/0) |
-| Features Description   | ![](https://geps.dev/progress/0) |
+| Task                   | Progress                          |
+|------------------------|-----------------------------------|
+| Project's Presentation | ![](https://geps.dev/progress/0)  |
+| Project's MLD          | ![](https://geps.dev/progress/20) |
+| Features List          | ![](https://geps.dev/progress/0)  |
+| Features Description   | ![](https://geps.dev/progress/0)  |
 ###### Countries Checklist
 | Country                     | Progress      |
 |-----------------------------|---------------|
@@ -225,5 +227,8 @@ ___
 | Zimbabwe                      | ![](https://geps.dev/progress/0) |
 
 ### Authors
+- [Up Network Maroc](https://www.github.com/upnetma)
 - [Mohamed Amine Lahiala](https://www.github.com/maminelahiala)
+### Contributors
+- [Ayoub Mrani Alaoui](https://www.github.com/AyoubMrani)
 
