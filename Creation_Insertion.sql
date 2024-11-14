@@ -915,9 +915,133 @@ INSERT INTO Languages (LanguageCodeTwo, LanguageCodeThree, LanguageName) VALUES
 
 CREATE TABLE PostalCodes (
                              ID SERIAL PRIMARY KEY NOT NULL,
-                             PostalCode VARCHAR(10) NOT NULL
+                             PostalCode VARCHAR(10) UNIQUE NOT NULL
 );
 
+-- Inserting Data about postal Codes
+
+INSERT INTO PostalCodes (
+                         PostalCode
+) VALUES (
+          '93015'
+         ),
+      (
+       '93022'
+      ),
+      (
+       '93052'
+         ),
+      (
+       '93023'
+         ),
+      (
+       '90072'
+         ),
+      (
+       '93153'
+         ),
+      (
+       '93024'
+         ),
+      (
+       '90052'
+         ),
+      (
+       '93026'
+         ),
+      (
+       '93100'
+         ),
+      (
+       '93033'
+         ),
+      (
+       '93200'
+         ),
+      (
+       '93150'
+         ),
+      (
+       '93002'
+         ),
+      (
+       '93003'
+         ),
+      (
+        '93250'
+         ),
+      (
+       '93252'
+         ),
+      (
+       '93004'
+         ),
+      (
+       '93016'
+         ),
+      (
+       '93000'
+         ),
+      (
+       '93010'
+         ),
+      (
+       '93020'
+         ),
+      (
+       '93030'
+         ),
+      (
+       '93040'
+         ),
+      (
+       '93150'
+         ),
+      (
+       '93005'
+         ),
+      (
+       '93014'
+         ),
+      (
+       '93032'
+         ),
+      (
+       '93006'
+         ),
+      (
+       '93102'
+         ),
+      (
+       '93200'
+         ),
+      (
+       '93152'
+         ),
+      (
+       '93222'
+         ),
+      (
+       '90050'
+         ),
+      (
+       '90055'
+         ),
+      (
+       '90102'
+         ),
+      (
+       '90302'
+         ),
+      (
+       '90025'
+         ),
+      (
+       '90035'
+         ),
+      (
+       '90036'
+         );
 -- Creating the Areas Table
 CREATE TABLE Areas (
                        ID SERIAL PRIMARY KEY NOT NULL,
@@ -934,10 +1058,23 @@ CREATE TABLE Cities (
                         CityName VARCHAR NOT NULL,
                         LAT NUMERIC NOT NULL,
                         LONG NUMERIC NOT NULL,
-                        RegionID INTEGER NOT NULL,
+                        RegionID INTEGER,
                         FOREIGN KEY (RegionID) REFERENCES Regions(ID)
 );
 
+-- Inserting Cities
+
+INSERT INTO Cities (
+                    CityName,
+                    LAT,
+                    LONG,
+                    RegionID
+) VALUES (
+          'Martil',
+          35.62804000,
+          -5.28608100,
+
+         );
 -- Creating The Regions Table
 
 CREATE TABLE Regions (
@@ -947,6 +1084,14 @@ CREATE TABLE Regions (
                          FOREIGN KEY (CountryID) REFERENCES Countries(ID)
 );
 
+-- Inserting Regions
+
+INSERT INTO Regions (
+                     RegionName,
+                     CountryID
+) VALUES (
+          '',
+         )
 -- Creating the Countries Table
 
 CREATE TABLE Countries (

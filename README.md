@@ -157,7 +157,7 @@ Legends:
 | Monaco                           | ![](https://geps.dev/progress/0) |
 | Mongolia                         | ![](https://geps.dev/progress/0) |
 | Montenegro                       | ![](https://geps.dev/progress/0) |
-| Morocco                          | ![](https://geps.dev/progress/0) |
+| Morocco                          | ![](https://geps.dev/progress/1) |
 | Mozambique                       | ![](https://geps.dev/progress/0) |
 | Myanmar (formerly Burma)         | ![](https://geps.dev/progress/0) |
 | Namibia                          | ![](https://geps.dev/progress/0) |
