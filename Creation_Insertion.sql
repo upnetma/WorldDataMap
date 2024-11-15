@@ -1090,7 +1090,7 @@ INSERT INTO Regions (
                      RegionName,
                      CountryID
 ) VALUES (
-          '',
+          'Tanger-Tetouan-Al Hoceima',
          )
 -- Creating the Countries Table
 
